@@ -1,0 +1,6 @@
+!tex = |> pdflatex %f && pdflatex %f && pdflatex %f |> %B.aux %B.log %B.out %B.pdf %B.toc
+
+: *.tex |> !tex |> {latex}
+: *.tex |> pandoc -f latex -w mediawiki -s -S -o %o %f |> %B.mediawiki
+
+.gitignore

@@ -1,4 +1,18 @@
-guide
-=====
+CSEG Guide
+==========
 
-CSEG Guide to graduate life
+Archive of CSEG Guide to graduate life
+
+
+Dependencies
+------------
+
+- Tup
+- LaTeX
+- Pandoc
+
+Usage
+-----
+
+    tup init
+    tup upd
